@@ -57,3 +57,5 @@ SELECT TO_CHAR(end_date, 'YYYY') AS "año de renun.", job_id AS "id empl,", COUN
 FROM job_history
 GROUP BY  TO_CHAR(end_date, 'YYYY'), job_id
 ORDER BY COUNT(*) DESC;
+
+-- Seguir con la próxima consulta
